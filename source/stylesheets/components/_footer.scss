@@ -1,14 +1,33 @@
 .footer {
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+  background: white;
+  transition: all 0.3s ease;
   color: gray;
+  height: 70px;
+  padding: 10px 30px;
+}
+
+.footer-links {
+  text-align: center;
 }
 
 .footer-links a {
-  color: gray;
+  color: #616668;
+  margin: 0 10px;
+}
+
+.footer-links a:hover {
+  color: #da552f;
 }
 
 .footer-copyright {
-
+  text-align: center;
+  font-weight: lighter;
+  font-size: 15px;
+  color: #D23333;
+  margin-top: 10px;
 }
+
 // <div class="footer">
 //   <div class="footer-links">
 //     <a href="#"><i class="fa fa-github"></i></a>
